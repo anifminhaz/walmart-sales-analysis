@@ -3,22 +3,7 @@
 ## Project Overview
 This project involves the analysis of Walmart sales data, including data cleaning, transformation, storage in a PostgreSQL database, and analysis through SQL queries. The project demonstrates skills in data engineering, data transformation, and analytical SQL query writing.
 
-## Pipeline Diagram
-```mermaid
-graph TD
-    A[Raw Data: Walmart.csv] --> B[Data Cleaning & Transformation]
-    B --> C[Processed CSV: walmart_clean_data.csv]
-    C --> D[PostgreSQL Database]
-    D --> E[SQL Analysis]
-    E --> F[Business Insights & Reporting]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#dfd,stroke:#333,stroke-width:2px
-    style D fill:#fdd,stroke:#333,stroke-width:2px
-    style E fill:#ddf,stroke:#333,stroke-width:2px
-    style F fill:#ffd,stroke:#333,stroke-width:2px
-```
+
 
 ## Technologies Used
 - **Python**: For data cleaning and transformation
@@ -42,7 +27,7 @@ walmart-sales-analysis/
 ```
 
 ## Data Preparation Process
-1. **Data Loading**: Imported the raw Walmart sales data from CSV
+1. **Data Loading**: Imported the raw Walmart sales data using Kaggle API
 2. **Data Cleaning**: 
    - Removed duplicate records (51 duplicates identified and removed)
    - Handled null values (31 records with null values in unit_price and quantity)
